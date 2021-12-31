@@ -1,0 +1,56 @@
+.input-container12 { 
+    border:0;
+    border-bottom:2px solid black;  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:#fff;
+    
+  }
+
+  .input-container12:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:2px solid white;	
+   }
+   .input-container12::placeholder{
+     color:white;
+     opacity: 0.7;
+   }
+   .textarea{
+      color:white;
+       background-color:transparent;
+       border:2px solid black;
+       
+   }
+   .textarea::placeholder{
+     color:white;
+     opacity: 0.7;
+   }
+   .twitter{
+      
+      color: #1DA1F2;
+   }
+   .twitter:hover{
+      
+    color: #2384c9;
+ }
+   .insta{
+     
+     color: blueviolet;
+   }
+   .insta:hover{
+     
+    color: rgb(113, 30, 190);
+  }
+   .google{
+     
+     color:red;
+   }
+   .google:hover{
+     
+    color:rgb(194, 47, 47);
+  }
+
+   

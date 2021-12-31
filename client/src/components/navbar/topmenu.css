@@ -1,0 +1,25 @@
+.container-fluid{
+    background-color:whitesmoke;
+    margin-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    
+    
+}
+
+
+
+.navul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.navul li a{
+    
+    text-decoration:none;
+    color:#010516;
+}
+.anchor:hover{
+    
+    border-bottom: 1px solid black;
+}
+

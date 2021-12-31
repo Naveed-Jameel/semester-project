@@ -1,0 +1,18 @@
+
+extends ../layout
+
+block content 
+    h1 Add Product
+    .div.col 
+    .col-sm-4
+        form(action="/products/add", method="post")
+            .form-group 
+                label(for="name") Product Name 
+                input#name(type="text" required class="form-control" name="name") 
+            .form-group
+                label(for="price") Product price 
+                input#price(type="text" required class="form-control" name="price")
+            .form-group 
+                label(for="price") Image url
+                input#price(type="text" required class="form-control" name="picture")
+            input(type="submit" class="btn btn-info" value="Add")
